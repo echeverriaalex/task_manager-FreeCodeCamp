@@ -44,3 +44,13 @@
 .task-container:nth-child(3n + 3){
     background: #3b3b3b;
 }
+
+@media (max-width: 882px){
+    .task-form{
+        max-width: 100%;
+    }
+
+    .task-container{
+        max-width: 100%;
+    }
+}

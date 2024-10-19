@@ -27,3 +27,13 @@
     color: #fff;
     text-transform: capitalize;
 }
+
+@media (max-width: 882px){
+    .task-form{
+        max-width: 100%;
+    }
+
+    .task-input{
+        max-width: 100%;
+    }
+}

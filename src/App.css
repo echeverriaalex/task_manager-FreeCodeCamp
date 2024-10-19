@@ -45,8 +45,6 @@ h1{
   border-radius: 26px;
 }
 
-
-
 .App-logo {
   height: 40vmin;
   height: 50px;
@@ -80,5 +78,21 @@ h1{
   }
   to {
     transform: rotate(360deg);
+  }
+}
+
+
+@media (max-width: 882px) {
+  .app-container{
+    background: red;
+    padding: 10px;
+    margin: 0;
+    width: 100%;
+  }
+
+  .task-list{
+    background: green;
+    width: 100%;
+    margin: 0;
   }
 }
